@@ -1,3 +1,18 @@
-=== GIT remote branches ===
+### GIT remote branches
 
-== upstream == 
+## check remote
+ git remote -v
+
+## add upstream
+
+ git remote add upstream git@github.com:kizouker/git-workshops.git
+
+
+## add origin
+
+ git remote add origin git@github.com:kizouker/git-workshops.git
+
+### Fix ssh keys
+
+### Create Branch
+ git branch -M main
